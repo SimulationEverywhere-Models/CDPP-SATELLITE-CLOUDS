@@ -1,0 +1,5 @@
+In order to run the simulation, simply run the run.bat file.  This will execute the simu and drawlog programs.  
+
+The simu program will use my ma file clouds.ma and simulate it using the initValues.val initial values file for 30 seconds.  It will create a cloudoutports.txt file that will show the output results for the two output ports that correspond to cells (3,3,0) and (8,8,0).  It also creates the log file clouds.log.  It is simply all the messages in the model.  
+
+The drawlog executable will create a file, clouddrawfile.drw using the model file clouds.ma and the log file clouds.log.  The clouddrawfile is a draw file that contains the results from the simulation.  If it is opened in a text editor like wordpad, you will see for each time interval of one second, three two-dimensional charts.  They correspond to the values in the cells for the three layers as described in the report.  The drw file can also be used in the graflog web applet on the course webpage to view the results of the simulation using a GUI.
